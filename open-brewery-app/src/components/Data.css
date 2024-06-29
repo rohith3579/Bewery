@@ -1,0 +1,87 @@
+.breweries-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .breweries-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-form input,
+  .search-form select,
+  .search-form button {
+    padding: 10px 16px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .search-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .brewery-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .brewery-table th,
+  .brewery-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .brewery-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .brewery-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .brewery-table a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .brewery-table a:hover {
+    text-decoration: underline;
+  }
+  
+  .loading-message,
+  .error-message {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .loading-message {
+    color: #007bff;
+  }
+  
+  .error-message {
+    color: red;
+  }
